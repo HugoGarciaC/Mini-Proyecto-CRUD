@@ -1,0 +1,79 @@
+body {
+    background: #EFEFBB;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D4D3DD, #EFEFBB);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.formulario {
+    padding: 20px;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+h3 {
+    font-family: cursive;
+    text-align: center;
+}
+
+
+
+.botones {
+    padding: 10px;
+}
+
+
+
+.table{
+    border: solid 1px black;
+    margin: 10px;
+}
+
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info-item i {
+    font-size: 25px;
+}
+
+.info-item h6 {
+    margin-left: 10px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.redes-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.redes-item i {
+    font-size: 25px;
+}
+
+.redes-item h6 {
+    margin-left: 10px;
+    font-family: cursive;
+}
